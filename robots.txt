@@ -1,0 +1,47 @@
+## robots.txt for https://www.phireedge.com
+## Governs traditional search engine crawlers and AI/LLM crawlers
+
+User-agent: *
+Allow: /
+
+# ===== Traditional search engines =====
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ===== AI / Generative Engine crawlers (GEO) =====
+# Allowed so the site's content can be cited/summarized in AI answers,
+# chat assistants, and generative search overviews.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://www.phireedge.com/sitemap.xml
